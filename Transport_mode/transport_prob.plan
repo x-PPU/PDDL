@@ -1,0 +1,14 @@
+;;!domain: Transport
+;;!problem: Transport_prob
+
+0.00000: (moveforward wp1 conv1 pa1 pa2) [0.00100]
+0.00100: (moveforward wp1 conv1 pa2 pa3) [0.00100]
+0.00200: (change_conv wp1 pa3 pb1) [0.00100]
+0.00300: (moveforward wp1 conv2 pb1 pb2) [0.00100]
+0.00400: (start_movebackward conv2) [0.00100]
+0.00500: (movebackward wp2 conv2 pb2 pb1) [0.00100]
+0.00600: (movebackward wp2 conv2 pb1 pa3) [0.00100]
+
+; Makespan: 0.007
+; Metric: 0.006
+; States evaluated: 11

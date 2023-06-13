@@ -1,0 +1,28 @@
+;;!domain: xPPU_new
+;;!problem: xPPU_new_porb
+
+0.00000: (retract_separator stack) [1.00000]
+0.00000: (crane_turn stamp stack) [2.00000]
+1.00100: (extend_separator wp2 stack) [1.00000]
+2.00200: (pick_up wp2 stack) [1.00000]
+3.00300: (crane_turn stack stamp) [2.00000]
+3.00300: (retract_separator stack) [1.00000]
+4.00400: (extend_separator wp1 stack) [1.00000]
+5.00400: (release wp2 stamp) [1.00000]
+6.00500: (stamp_cy_retracted wp2 stamp) [1.00000]
+6.00500: (crane_turn stamp stack) [2.00000]
+7.00600: (stamp wp2) [5.00000]
+8.00600: (pick_up wp1 stack) [1.00000]
+9.00700: (crane_turn stack conveyor) [1.00000]
+10.00800: (release wp1 conveyor) [1.00000]
+11.00900: (move_forward wp1 conveyor) [2.00000]
+11.00900: (crane_turn conveyor stamp) [1.00000]
+12.00700: (stamp_cy_extend wp2 stamp) [1.00000]
+13.00800: (pick_up wp2 stamp) [1.00000]
+14.00900: (crane_turn stamp conveyor) [1.00000]
+15.01000: (release wp2 conveyor) [1.00000]
+16.01100: (move_forward wp2 conveyor) [2.00000]
+
+; Makespan: 18.011
+; Metric: 18.011
+; States evaluated: 8489

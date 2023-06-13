@@ -1,0 +1,12 @@
+;;!domain: xPPU
+;;!problem: Recovery_1
+
+0.00000: (pick_up wp2 stamp) [1.00000]
+1.00100: (release wp2 stamp) [1.00000]
+2.00200: (crane_turn stamp stack) [2.00000]
+4.00300: (pick_up wp1 stack) [1.00000]
+5.00400: (release wp1 stack) [1.00000]
+
+; Makespan: 6.004
+; Metric: 6.004
+; States evaluated: 44

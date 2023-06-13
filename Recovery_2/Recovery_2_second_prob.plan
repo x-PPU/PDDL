@@ -1,0 +1,17 @@
+;;!domain: Recovery_2_second
+;;!problem: Recovery_2_second_prob
+
+0.00000: (pac_movebackward wp1 pb1 pb2) [0.00100]
+0.00000: (lsc_moveforward wp1 pa1 pa2 pa3 pa4 pa5) [0.00100]
+0.00100: (pac_to_lsc wp2 pa5 pa1 pa2 pa3 pa4 pb2 pb1) [0.00100]
+0.00200: (lsc_movebackward wp1 pa5 pa1 pa4) [0.00100]
+0.00300: (push_ramp3 wp2 pa1 pa2 pa3 pa4 pa5 r3) [0.00100]
+0.00400: (lsc_moveforward wp1 pa1 pa2 pa3 pa4 pa5) [0.00100]
+0.00500: (lsc_moveforward wp1 pa5 pa1 pa2 pa3 pa4) [0.00100]
+0.00600: (lsc_moveforward wp1 pa4 pa5 pa1 pa2 pa3) [0.00100]
+0.00700: (lsc_moveforward wp1 pa3 pa4 pa5 pa1 pa2) [0.00100]
+0.00800: (push_ramp1 wp1 pa1 r1) [0.00100]
+
+; Makespan: 0.009000000000000001
+; Metric: 0.008
+; States evaluated: 13

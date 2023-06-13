@@ -1,0 +1,11 @@
+;;!domain: Recovery1
+;;!problem: Recovery1_prob
+
+0.00000: (PICK_UP WP2 STAMP) [1.00000]
+1.00000: (RELEASE WP2 STAMP) [1.00000]
+2.00000: (CRANE_TURN STAMP STACK) [2.00000]
+4.00000: (PICK_UP WP1 STACK) [1.00000]
+5.00000: (RELEASE WP1 STACK) [1.00000]
+
+; Makespan: 6
+; Metric: 6

@@ -1,0 +1,41 @@
+;;!domain: Recovery_2_third
+;;!problem: Recovery_2_third_prob
+
+0.00000: (lsc_moveforward p1 p2 p3 p4 p5) [1.00000]
+1.00100: (lsc_moveforward p1 p2 p3 p4 p5) [1.00000]
+2.00200: (lsc_moveforward p1 p2 p3 p4 p5) [1.00000]
+3.00300: (lsc_moveforward p1 p2 p3 p4 p5) [1.00000]
+4.00400: (pac_movebackward pa pb) [1.00000]
+4.00400: (change_lsc_order_end p5) [1.00000]
+5.00500: (lsc_moveforward p1 p2 p3 p4 p5) [1.00000]
+5.00500: (change_pac_order_start pa) [1.00000]
+6.00600: (pac_movebackward pa pb) [1.00000]
+7.00700: (pac_to_lsc wp1 p3 pb) [1.00000]
+8.00800: (lsc_moveforward p1 p2 p3 p4 p5) [1.00000]
+9.00900: (lsc_moveforward p1 p2 p3 p4 p5) [1.00000]
+10.01000: (lsc_moveforward p1 p2 p3 p4 p5) [1.00000]
+11.01100: (push_ramp3 wp2 p1 r3) [1.00000]
+12.01200: (pac_moveforward pa pb) [1.00000]
+13.01300: (pac_moveforward pa pb) [1.00000]
+14.01400: (lsc_moveforward p1 p2 p3 p4 p5) [1.00000]
+14.01400: (change_pac_order_end pa) [1.00000]
+15.01500: (change_lsc_order_end p4) [1.00000]
+16.01600: (lsc_moveforward p1 p2 p3 p4 p5) [1.00000]
+17.01700: (lsc_moveforward p1 p2 p3 p4 p5) [1.00000]
+18.01800: (lsc_moveforward p1 p2 p3 p4 p5) [1.00000]
+19.01900: (lsc_moveforward p1 p2 p3 p4 p5) [1.00000]
+20.02000: (push_ramp1 wp1 p3 r1) [1.00000]
+21.02100: (lsc_movebackward p1 p2 p3 p4 p5) [1.00000]
+22.02200: (lsc_movebackward p1 p2 p3 p4 p5) [1.00000]
+23.02300: (lsc_movebackward p1 p2 p3 p4 p5) [1.00000]
+24.02400: (lsc_to_pac wp3 p2 pa) [1.00000]
+25.02500: (pac_moveforward pa pb) [1.00000]
+26.02600: (pac_moveforward pa pb) [1.00000]
+27.02700: (pac_moveforward pa pb) [1.00000]
+28.02800: (change_pac_order_end pb) [1.00000]
+29.02900: (pac_moveforward pa pb) [1.00000]
+30.03000: (push_ramp4 wp3 pa r4) [1.00000]
+
+; Makespan: 31.03
+; Metric: 31.03
+; States evaluated: 13459
